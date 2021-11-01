@@ -1,0 +1,26 @@
+addi a0,a0,5 #A=5
+ addi a1,a1,10 #B=10
+ addi a2,a2,0 #done=0
+ addi a3,a3,0 #constant =0
+ addi a4,a4,1 #msb_check=1
+ addi a5,a5,31 #
+.loop:
+ bne a2,a3,.abc #while(done !=0)
+ sub a7,a0,a1 #a-b
+ srl a7,a7,a5 #checking msb
+ xor a7,a7,a4 #checking if msb 1 or 0
+ bne a7,a3,.else #if true then a is not < b
+ add a6,a3,a0 #temp=A
+ add a0,a3,a1 #A=B
+ add a1,a3,a6 #B=A
+ beq a3,a3,.loop #go back to loop
+.else:
+ bne a1,a3,.elseif #else if B !=0
+ addi a2,a2,1 #else done=1
+ beq a3,a3,.loop #go back to loop
+.elseif:
+ sub a0,a0,a1 #A=A-B
+ beq a3,a3,.loop #go back to loop
+.abc:
+ add a7,a3,a0
+ sw a7,0(x8)
