@@ -33,7 +33,7 @@ The two numbers which I used in my assembly program was 5 and 10 and GCD of thes
 
 # Simulation
 
-For Simulation I have used Vivado, and I have also uploaded my complete project folder with name project_1. If you have vivado setup istalled in your pc you can simply download this folder and can run project_1.xdc file inside project_1 folder.
+For Simulation I have used Vivado, and I have also uploaded my complete project folder with name project_1. If you have vivado setup istalled in your pc you can simply download this folder and can run project_1.xpr file inside project_1 folder.
 
 Or if you want to make your own project then you need to make a new project and all the modules that are in Source code folders add them as design source and also add instruction.mem file from Assembly and Machine code folder as design source. Add singleCycle_tb.v file from test_Benches folder as simulation folder and then run the simulation.
 
