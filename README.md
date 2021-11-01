@@ -1,4 +1,4 @@
-# RiscV-Single-Cycle
+# RiscV-Single-Cycle-Processor
 Implementation of RiscV single cycle architecture consisting of six base instructions (R, I, B, S, J, U). 
 
 This is an implementation of RiscV base single cycle processor. This basic design supports six base instructions mentioned as:
