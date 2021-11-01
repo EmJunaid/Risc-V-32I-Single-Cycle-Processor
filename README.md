@@ -23,6 +23,10 @@ The demo code used to check the working of processor was a code to calculate GCD
 
 According to the assembly of c code, the result (The GCD of two numbers) is stored in X17, so one can check the final result by declaring this register as output in top_level.v file or after simulation one can also check it through scope (This feature is available in Vivado, i don't know about any other simulation tool). 
 
+The two numbers which I used in my assembly program was 5 and 10 and GCD of these two numbers is 5. Below a picture is attached of simulation which is showing that correct result (5) is stored in x17.
+
+![Screenshot (139)](https://user-images.githubusercontent.com/93525537/139679257-e73fcc02-97c3-4d13-85ea-015958436e8f.png)
+
 
 
 
