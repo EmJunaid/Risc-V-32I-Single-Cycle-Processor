@@ -37,6 +37,29 @@ For Simulation I have used Vivado, and I have also uploaded my complete project 
 
 Or if you want to make your own project then you need to make a new project and all the modules that are in Source code folders add them as design source and also add instruction.mem file from Assembly and Machine code folder as design source. Add singleCycle_tb.v file from test_Benches folder as simulation folder and then run the simulation.
 
+# DataPath Which have been Followed
+
+Below is the picture of data path which I followed to design the single cycle RiscV processor. The below diagram only supported these instructions:
+
+R-Type
+
+S-Type
+
+I-Type
+
+B-Type
+
+In order to implement U-type and J-Type I did some ammendments according to the requirements but the main underlying datapath is same which is provided below.
+
+
+
+![Screenshot (140)](https://user-images.githubusercontent.com/93525537/140441883-aca603de-333a-4f3a-b681-4184e4513293.png)
+
+
+# Reference
+
+All this material and understanding is taken from book " Digital Design and Computer Architecture RISC-V Edition " by Sarah L Harris and David M Harris.
+
 
 
 
