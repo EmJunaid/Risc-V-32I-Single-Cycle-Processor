@@ -1,7 +1,7 @@
 # Risc-V-Single-Cycle-Processor
-Implementation of RiscV single cycle architecture consisting of six base instructions (R, I, B, S, J, U). 
+Implementation of Risc-V single cycle architecture consisting of six base instructions (R, I, B, S, J, U). 
 
-This is an implementation of RiscV base single cycle processor. This basic design supports six base instructions mentioned as:
+This is an implementation of Risc-V base single cycle processor. This basic design supports six base instructions mentioned as:
 
 R-Type
 
@@ -39,7 +39,7 @@ Or if you want to make your own project then you need to make a new project and 
 
 # DataPath Which have been Followed
 
-Below is the picture of data path which I followed to design the single cycle RiscV processor. The below diagram only supported these instructions:
+Below is the picture of data path which I followed to design the single cycle Risc-V processor. The below diagram only supported these instructions:
 
 R-Type
 
@@ -58,7 +58,7 @@ In order to implement U-type and J-Type I did some ammendments according to the 
 
 # Reference
 
-All this material and understanding is taken from book " Digital Design and Computer Architecture RISC-V Edition " by Sarah L Harris and David M Harris.
+Some part of this material and understanding is taken from book " Digital Design and Computer Architecture RISC-V Edition " by Sarah L Harris and David M Harris.
 
 
 
