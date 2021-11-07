@@ -1,4 +1,4 @@
-# Risc-V-Single-Cycle-Processor
+# Risc-V-32I-Single-Cycle-Processor
 Implementation of Risc-V single cycle architecture consisting of six base instructions (R, I, B, S, J, U). 
 
 This is an implementation of Risc-V base single cycle processor. This basic design supports six base instructions mentioned as:
