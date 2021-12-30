@@ -9,8 +9,8 @@ module Controller (
     output reg [2:0] ImmSrc
 );
     
-    wire [16:0] checker;
-    assign checker={{OP},{funct3},{funct77}};
+    wire [16:0] checker1;
+    assign checker1={{OP},{funct3},{funct77}};
     reg [1:0] ALUOp;
     always @(*) begin
         casex (OP)
@@ -100,7 +100,7 @@ module Controller (
     end
 
     always @(*) begin
-        case (checker)
+        case (checker1)
             17'b01100110000000000: ALUControl <= 5'b00000;
             17'b01100110000100000: ALUControl <= 5'b00001;
             17'b01100110000000001: ALUControl <= 5'b00010;
